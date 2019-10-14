@@ -1,0 +1,18 @@
+server:
+  port: 80
+  
+  
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/view  
+      
+      
+      
+  servlet:
+    multipart:
+      max-file-size: 50000
+      max-request-size: 50000
+        
+       
+        
